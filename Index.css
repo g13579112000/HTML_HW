@@ -1,0 +1,319 @@
+.Banner-background{
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    position: absolute;
+}
+.Banner-title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.Banner-title div{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+}
+.Banner-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-nav a{
+    display: inline-block;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: .3s;
+}
+.Banner-nav a:hover{
+    color: rgb(27, 139, 27);
+}
+.Banner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-logo img{
+    width: 170px;
+    height: 50px;
+}
+.Banner-icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Banner-icon a{
+    text-decoration: none;
+    padding: 0 18px;
+}
+.Banner-icon a i{
+    color: black;
+    transition: .3s;
+}
+.Banner-icon a i:hover{
+    color: rgb(38, 136, 38);
+}
+.Banner .content{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Banner-txt{
+    width: 35%;
+}
+.Banner-txt h2{
+    font-size: 70px;
+    line-height: 80px;
+}
+.Banner-txt p{
+    font-size: 18px;
+    padding: 30px 0;
+}
+.Banner-txt a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: black;
+    padding: 15px 45px 15px 45px;
+    transition: .3s;
+}
+.Banner-txt a:hover{
+    background-color: rgb(19, 183, 224);
+}
+.Banner-pic{
+    width: 50%;
+}   
+
+
+
+.sctWhite{
+    width: 80%;
+    margin: 0 10%;
+}
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(13, 112, 13);
+    padding: 50px 0;
+}
+
+
+.Info .title p{
+    font-size: 18px;
+    color: #888;
+    padding: 10px 0 40px 0;
+}
+.Info .content{
+    width: 100%;
+    display: flex;
+}
+.Info .content>div{
+    width: 33.3%;
+}
+.Info-txt h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    padding: 16px 0;
+}
+.Info-txt p{
+    font-size: 18px;
+    color: #888;
+    padding: 0 0 20px 0;
+}
+.Info-content-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Info-content-txt:nth-child(1){
+    text-align: right;
+}
+.Info-content-txt:nth-child(2){
+    order: 1;
+}
+
+
+.Pick .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pick-items{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+}
+.pick-items img{
+    width: 100%;
+    
+    transition: 1s;
+}
+.pick-items img:nth-child(2){
+    max-height: 60%;
+    z-index: -1;
+    position: absolute;
+    top: 1;
+    left: 0;
+}
+.pick-items img:nth-child(1):hover{
+    opacity: 0;
+}
+.pick-items h3{
+    padding: 25px;
+}
+.pick-items h3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Price{
+    width: 30%;
+    display: flex;
+    justify-items: space-between;
+    justify-content: center;
+}
+.Price p2{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.Price p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Video{
+    width: 100%;
+    height: 630px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Video-background{
+    z-index: -1;
+    position: absolute;
+}
+.Video-background img{
+    width: 100%;
+    height: 630px;
+}
+.Video .title{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 80px;
+}
+.Video .title p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 0 40px 0;
+}
+.Video .title a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 15px 43px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: rgb(240, 243, 245);
+}
+.Video .content{
+    width: 40%;
+}
+.Video .content a img{
+    width: 100%;
+}
+
+
+.Instagram .title h2{
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+}
+.Instagram .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.Instagram .content a{
+    width: 23.5%;
+    background-color: black;
+}
+.Instagram .content a img{
+    width: 100%;
+    transition: .7s;
+}
+.Instagram .content a img:hover{
+    opacity: .3;
+}
+
+.Footer{
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Footer .Logo a img{
+    width: 170px;
+    height: 50px;
+    padding: 30px;
+}
+.Footer .Service a{
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding:30px;
+}
+.Footer .Icon{
+    width: 260px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+.Footer .Icon a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.Footer .footer p{
+    color: #888;
+    padding: 40px;
+}
