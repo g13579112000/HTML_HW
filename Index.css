@@ -242,11 +242,15 @@
     top: 70px;
 }
 .sold-out-tri{
-    width: 0;
-    height: 0;
-    border-top: 5px solid #070;
-    border-right: 5px solid #070;
+    width: 0px;
+    height: 0px;
+    border-top: 3px solid #070;
+    border-right: 2.5px solid #070;
+    border-bottom: 2.5px solid transparent;
+    border-left:3px solid transparent ;
     position: absolute;
+    top: 90px;
+    left: -5px;
 }
 
 
@@ -315,6 +319,7 @@
 .Instagram .content a img{
     width: 100%;
     transition: .7s;
+    vertical-align: top;
 }
 .Instagram .content a img:hover{
     opacity: .3;
