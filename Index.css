@@ -203,6 +203,7 @@
     font-weight: bold;
 }
 .sale{
+    z-index: 1;
     padding: 8px 14px;
     font-size: 18px;
     color: white;
@@ -213,6 +214,7 @@
     border-radius: 30%;
 }
 .sale-side-top{
+    z-index: 1;
     padding: 8px;
     background-color: #070;
     position: absolute;
@@ -220,6 +222,7 @@
     right: 0;   
 }
 .sale-side-down{
+    z-index: 1;
     width: 14px;
     height: 18px;
     background-color: #070;
@@ -228,6 +231,7 @@
     right: 42px;
 }
 .sold-out{
+    z-index: 1;
     width: 100px;
     height: 20px;
     font-size: 14px;
