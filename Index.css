@@ -151,6 +151,9 @@
     justify-content: center;
     align-items: center;
 }
+.Info-content-pic a img{
+    width: 100%;
+}
 
 
 .Pick .content{
