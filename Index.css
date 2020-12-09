@@ -146,6 +146,11 @@
 .Info-content-txt:nth-child(2){
     order: 1;
 }
+.Info-content-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .Pick .content{
