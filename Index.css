@@ -213,30 +213,13 @@
 .sale{
     z-index: 1;
     padding: 8px 14px;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     background-color: #070;
     position: absolute;
     top: 40px;
     right: 0;
-    border-radius: 30%;
-}
-.sale-side-top{
-    z-index: 1;
-    padding: 8px;
-    background-color: #070;
-    position: absolute;
-    top: 40px;
-    right: 0;   
-}
-.sale-side-down{
-    z-index: 1;
-    width: 14px;
-    height: 18px;
-    background-color: #070;
-    position: absolute;
-    top: 56px;
-    right: 42px;
+    border-radius: 50% 0;
 }
 .sold-out{
     z-index: 1;
@@ -256,8 +239,8 @@
 .sold-out-tri{
     width: 0px;
     height: 0px;
-    border-top: 3px solid #070;
-    border-right: 2.5px solid #070;
+    border-top: 3px solid #050;
+    border-right: 2.5px solid #050;
     border-bottom: 2.5px solid transparent;
     border-left:3px solid transparent ;
     position: absolute;
@@ -351,17 +334,18 @@
     height: 50px;
     padding: 30px;
 }
+.Service{
+    display: flex;
+}
 .Footer .Service a{
     font-size: 10px;
     font-weight: bold;
     text-decoration: none;
     color: black;
-    margin: 30px;
 }
-.Footer .Service a+a::before{
-    width: 10px;
-    height: 0;
-    border: 1px solid #aaa;
+.Service-a:nth-child(n+2)::before{
+    content: ' —— ';
+    margin: 20px;
 }
 .Footer .Icon{
     width: 260px;
@@ -380,6 +364,9 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+.Footer .Icon a:hover{
+
 }
 .Footer .footer p{
     color: #888;
